@@ -1,0 +1,25 @@
+main{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    color: rgb(176, 136, 144);
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.jatekter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.jatekter div{
+    aspect-ratio: 1; /* oldlarány */
+    border: 1px solid rgb(209, 157, 165);
+    border-radius: 5px;
+    font-size: 50px;
+    cursor: grab;
+    place-items: center;
+   
+}
